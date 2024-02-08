@@ -3,17 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Mi primer sitio Web</title>
 </head>
 <body>
     <header>
-        <h1>Etiquetas más utilizadas para desarrollo web</h1>
+        <section id="contenedorHeader">
+            <div id="imagenLogo">
+                <img src="./assets/pagina-web-1.jpg" alt="Computadora con prediseño de una pagina web.">
+            </div>
+            
+            <div id="tituloh1">
+                <h1>Etiquetas más utilizadas para desarrollo web</h1>
+            </div>
+        </section>
+            
     </header>
     <main>
         <section>
-            <h2>Etiquetas para la terminal</h2>
-            <p>Estas estiquetas nos ayudan al utilizar la terminal. Es recomendable usar la terminal gitbash</p>
-            <div>
+            <div class="tituloSubtitulo">
+                <h2>Etiquetas para la terminal</h2>
+                <p>Estas estiquetas nos ayudan al utilizar la terminal. Es recomendable usar la terminal gitbash</p>
+                <hr>
+            </div>
+            <div class="contenido">
                 <ul>
                     <li>pwd: Imprime el directorio donde estamos</li>
                     <li>ls: Imprime archivos y carpetas donde estamos situados</li>
@@ -28,9 +42,12 @@
             </div>
         </section>
         <section>
-            <h2>Etiquetas git</h2>
-            <p>Estas etiquetas te ayudan al utilizar git y subir tus cambios a github</p>
-            <div>
+            <div class="tituloSubtitulo">
+                <h2>Etiquetas git</h2>
+                <p>Estas etiquetas te ayudan al utilizar git y subir tus cambios a github</p>
+                <hr>
+            </div>
+            <div class="contenido">
                 <ol>
                     <li>git init: Inicia repositorio local</li>
                     <li>git add: Comando para que el repositorio sepa la existencia de una archivo o de sus cambios</li>
@@ -46,9 +63,12 @@
 
         </section>        
         <section>
-            <h2>Etiquetas para HTML</h2>
-            <p>Estas etiquetas nos ayudan a utilizar HTML y darle formato a nuestra pagina web</p>
-            <div>
+            <div class="tituloSubtitulo">
+                <h2>Etiquetas para HTML</h2>
+                <p>Estas etiquetas nos ayudan a utilizar HTML y darle formato a nuestra pagina web</p>
+                <hr>
+            </div>
+            <div class="contenido">
                 <ul>
                     <li>html: Raiz de un documento HTML. Engloba todo el contenido</li>
                     <li>head: Contiene metadatos/información para el documento, como el titulo, enlaces y hojas de estilo</li>
@@ -83,7 +103,7 @@
 
     </main>
     <footer>
-        <img src="./assets/pagina-web-1.jpg" alt="Computadora con prediseño de una pagina web.">
+        
     </footer>    
 </body>
 </html>
